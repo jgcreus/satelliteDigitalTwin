@@ -3,7 +3,7 @@
 # Establecer el nombre de la instancia de Azure Digital Twins // Set the Azure Digital Twins instance name
 hostname="YOUR.api.digitaltwins.azure.net" # Reemplazar por su propio hostname // Replace with your own hostname
 
-# Lista de twin IDs
+# Lista de twin IDs // List of twin IDs
 declare -a twin_ids=("sat" "integrity" "sisa" "spa" "op" "ephemeris" "almanac" "sa" "ar" "sp" "sid" "iod" "ndvashs" "crc" "taccp" "gst" "gpstgstc" "gstutcc" "bgd" "ic" "cc")
 
 # Función para generar el JSON patch dependiendo del twin_id // Function to generate the JSON patch depending on the twin_id
