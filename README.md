@@ -18,6 +18,7 @@ Este repositorio contiene el código utilizado en el trabajo de fin de máster d
 ![sat v final sin nombre](https://github.com/jgcreus/satelliteDigitalTwin/assets/61203608/9922fd4f-2039-4076-a1b0-464c5747a5f3)
 
 
+
 <English>
 
 Developed for Azure Digital Twins using JSON and Bash.
