@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:com:adt:CRC;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+      {
+          "@type": "Property",
+          "name": "Crc",
+          "schema": "integer"
+      }
+  ]
+}

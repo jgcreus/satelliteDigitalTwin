@@ -1,0 +1,42 @@
+{
+  "@id": "dtmi:com:adt:OP;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+      {
+          "@type": "Relationship",
+          "name": "Containsephemeris",
+          "target": "dtmi:com:adt:Ephemeris;1"
+      },
+      {
+          "@type": "Property",
+          "name": "SemiMajorAxis",
+          "schema": "float"
+      },
+      {
+          "@type": "Property",
+          "name": "Eccentricity",
+          "schema": "float"
+      },
+      {
+          "@type": "Property",
+          "name": "Inclination",
+          "schema": "float"
+      },
+      {
+          "@type": "Property",
+          "name": "RightAscensionOfAscendingNode",
+          "schema": "float"
+      },
+      {
+          "@type": "Property",
+          "name": "ArgumentOfPerigee",
+          "schema": "float"
+      },
+      {
+          "@type": "Property",
+          "name": "OrbitalPeriod",
+          "schema": "float"
+      }
+  ]
+}

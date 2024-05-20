@@ -1,0 +1,11 @@
+{
+  "@id": "dtmi:com:adt:BGD;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+      { "@type": "Property",
+          "name": "BroadcastGroupDelay",
+          "schema": "float"
+          }
+  ]
+}

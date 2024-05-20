@@ -1,0 +1,823 @@
+{
+    "digitalTwinsFileInfo": {
+        "fileVersion": "1.0.0"
+    },
+    "digitalTwinsGraph": {
+        "digitalTwins": [
+            {
+                "$dtId": "integrity",
+                "$etag": "W/\"7ed597d4-aaa3-4a09-83f5-e3e790aa206f\"",
+                "IntegrityLevel": "High",
+                "AlertLimit": 5,
+                "$metadata": {
+                    "$model": "dtmi:com:adt:Integrity;1"
+                }
+            },
+            {
+                "$dtId": "sisa",
+                "$etag": "W/\"3f77093c-0b28-4ae2-97b8-4bc316847069\"",
+                "AccuracyLevel": 98,
+                "ErrorMargin": 0.5,
+                "ConfidenceInterval": 95,
+                "SystemIdentifier": "System01",
+                "$metadata": {
+                    "$model": "dtmi:com:adt:SISA;1"
+                }
+            },
+            {
+                "$dtId": "spa",
+                "$etag": "...",
+                "Radiation": 98,
+                "BatteryHealth": 89,
+                "BatteryLevel": 95,
+                "$metadata": {
+                    "$model": "dtmi:com:adt:SPA;1"
+                }
+            },
+            {
+                "$dtId": "sat",
+                "$etag": "W/\"70e0f8c3-84b0-4e5f-8e23-d75d38cce3c5\"",
+                "Date": "2024-01-01",
+                "MessageType":"FNAV",
+                "Service": "OS",
+                "Component":"E5a-I",
+                "$metadata": {
+                    "$model": "dtmi:com:adt:SAT;1"
+                }
+            },
+            {
+                "$dtId": "op",
+                "$etag": "W/\"f1bb79a6-ae7b-4277-8730-0de8c59ca10f\"",
+                "SemiMajorAxis": 30000.32,
+                "Eccentricity": 5.0,
+                "Inclination": 0.0,
+                "RightAscensionOfAscendingNode": 0.0,
+                "ArgumentOfPerigee": 0.0,
+                "OrbitalPeriod": 0.0,
+                "$metadata": {
+                    "$model": "dtmi:com:adt:OP;1"
+                }
+            },
+            {
+                "$dtId": "ephemeris",
+                "$etag": "W/\"4620e17f-0d0d-4b43-bba2-eb8c3096f710\"",
+                "TimeOfApplicability": "2024-01-01T13:55:00",
+                "PositionX": 0.5,
+                "PositionY": 0.5,
+                "PositionZ": 0.5,
+                "VelocityX": 0.5,
+                "VelocityY": 0.5,
+                "VelocityZ": 0.5,
+                "$metadata": {
+                    "$model": "dtmi:com:adt:Ephemeris;1"
+                }
+            },
+            {
+                "$dtId": "almanac",
+                "$etag": "...",
+                "UpdateFrequency": 37,
+                "$metadata": {
+                    "$model": "dtmi:com:adt:Almanac;1"
+                }
+            },
+            {
+                "$dtId": "ar",
+                "$etag": "...",
+                "ReferenceType": "none",
+                "ReferenceDetail": "none",
+                "EffectiveDate": "2024-01-01",
+                "ExpiryDate": "2024-01-01",
+                "$metadata": {
+                    "$model": "dtmi:com:adt:AR;1"
+                }
+            },
+            {
+                "$dtId": "sa",
+                "$etag": "...",
+                "WeekNumber": 0,
+                "$metadata": {
+                    "$model": "dtmi:com:adt:SA;1"
+                }
+            },
+            {
+                "$dtId": "sp",
+                "$etag": "...",
+                "UpdateInterval": 0,
+                "ParameterReliability": "none",
+                "$metadata": {
+                    "$model": "dtmi:com:adt:SP;1"
+                }
+            },
+            {
+                "$dtId": "sid",
+                "$etag": "...",
+                "SatelliteId": "A001",
+                "$metadata": {
+                    "$model": "dtmi:com:adt:SID;1"
+                }
+            },
+            {
+                "$dtId": "iod",
+                "$etag": "...",
+                "IssueOfData": 0,
+                "$metadata": {
+                    "$model": "dtmi:com:adt:IOD;1"
+                }
+            },
+            {
+                "$dtId": "ndvashs",
+                "$etag": "...",
+                "NavDataValidity": false,
+                "SignalHealthStatus": "nose",
+                "$metadata": {
+                    "$model": "dtmi:com:adt:NDVASHS;1"
+                }
+            },
+            {
+                "$dtId": "crc",
+                "$etag": "...",
+                "Crc": 0,
+                "$metadata": {
+                    "$model": "dtmi:com:adt:CRC;1"
+                }
+            },
+            {
+                "$dtId": "taccp",
+                "$etag": "...",
+                "AccuracyOfTiming": 0.0,
+                "TimeSystemUsed": "none",
+                "$metadata": {
+                    "$model": "dtmi:com:adt:TACCP;1"
+                }
+            },
+            {
+                "$dtId": "gst",
+                "$etag": "...",
+                "GalileoSystemTime": "10:45:30",
+                "$metadata": {
+                    "$model": "dtmi:com:adt:GST;1"
+                }
+            },
+            {
+                "$dtId": "gpstgstc",
+                "$etag": "...",
+                "GpsToGalileoTimeConversion": 0.0,
+                "$metadata": {
+                    "$model": "dtmi:com:adt:GPSTGSTC;1"
+                }
+            },
+            {
+                "$dtId": "gstutcc",
+                "$etag": "...",
+                "GstUtcConversion": 0.0,
+                "$metadata": {
+                    "$model": "dtmi:com:adt:GSTUTCC;1"
+                }
+            },
+            {
+                "$dtId": "bgd",
+                "$etag": "...",
+                "BroadcastGroupDelay": 0.0,
+                "$metadata": {
+                    "$model": "dtmi:com:adt:BGD;1"
+                }
+            },
+            {
+                "$dtId": "ic",
+                "$etag": "...",
+                "IonosphericCorrection": 0.0,
+                "$metadata": {
+                    "$model": "dtmi:com:adt:IC;1"
+                }
+            },
+            {
+                "$dtId": "cc",
+                "$etag": "...",
+                "ClockCorrection": 0.0,
+                "$metadata": {
+                    "$model": "dtmi:com:adt:CC;1"
+                }
+            }
+        ],
+        "relationships": [
+            {
+                "$relationshipId": "op_to_ephemeris",
+                "$sourceId": "op",
+                "$targetId": "ephemeris",
+                "$relationshipName": "Containsephemeris",
+                "$etag": "W/\"9240de5e-3150-4384-8cb2-5eba1d20b93e\""
+            },
+            {
+                "$relationshipId": "sat_to_integrity",
+                "$sourceId": "sat",
+                "$targetId": "integrity",
+                "$relationshipName": "Containsintegrity",
+                "$etag": "W/\"49d020cf-e394-4ac7-98f1-908584c9d87c\""
+            },
+            {
+                "$relationshipId": "sat_to_op",
+                "$sourceId": "sat",
+                "$targetId": "op",
+                "$relationshipName": "Containsop",
+                "$etag": "W/\"3bca715a-494a-4987-8834-ec08cf5bbdec\""
+            },
+            {
+                "$relationshipId": "sat_to_almanac",
+                "$sourceId": "sat",
+                "$targetId": "almanac",
+                "$relationshipName": "Containsalmanac",
+                "$etag": "..."
+            },
+            {
+                "$relationshipId": "sat_to_sp",
+                "$sourceId": "sat",
+                "$targetId": "sp",
+                "$relationshipName": "Containssp",
+                "$etag": "..."
+            },
+            {
+                "$relationshipId": "sat_to_taccp",
+                "$sourceId": "sat",
+                "$targetId": "taccp",
+                "$relationshipName": "Containstaccp",
+                "$etag": "..."
+            },
+            {
+                "$relationshipId": "integrity_to_sisa",
+                "$sourceId": "integrity",
+                "$targetId": "sisa",
+                "$relationshipName": "Containssisa",
+                "$etag": "W/\"e940c7ce-c506-4816-9ebc-d0308ee271ae\""
+            },
+            {
+                "$relationshipId": "integrity_to_spa",
+                "$sourceId": "integrity",
+                "$targetId": "spa",
+                "$relationshipName": "Containsspa",
+                "$etag": "..."
+            },
+            {
+                "$relationshipId": "almanac_to_ar",
+                "$sourceId": "almanac",
+                "$targetId": "ar",
+                "$relationshipName": "Containsar",
+                "$etag": "..."
+            },
+            {
+                "$relationshipId": "almanac_to_sa",
+                "$sourceId": "almanac",
+                "$targetId": "sa",
+                "$relationshipName": "Containssa",
+                "$etag": "..."
+            },
+            {
+                "$relationshipId": "sp_to_sid",
+                "$sourceId": "sp",
+                "$targetId": "sid",
+                "$relationshipName": "Containssid",
+                "$etag": "..."
+            },
+            {
+                "$relationshipId": "sp_to_iod",
+                "$sourceId": "sp",
+                "$targetId": "iod",
+                "$relationshipName": "Containsiod",
+                "$etag": "..."
+            },
+            {
+                "$relationshipId": "sp_to_ndvashs",
+                "$sourceId": "sp",
+                "$targetId": "ndvashs",
+                "$relationshipName": "Containsndvashs",
+                "$etag": "..."
+            },
+            {
+                "$relationshipId": "sp_to_crc",
+                "$sourceId": "sp",
+                "$targetId": "crc",
+                "$relationshipName": "Containscrc",
+                "$etag": "..."
+            },
+            {
+                "$relationshipId": "taccp_to_gst",
+                "$sourceId": "taccp",
+                "$targetId": "gst",
+                "$relationshipName": "Containsgst",
+                "$etag": "..."
+            },
+            {
+                "$relationshipId": "taccp_to_gpstgstc",
+                "$sourceId": "taccp",
+                "$targetId": "gpstgstc",
+                "$relationshipName": "Containsgpstgstc",
+                "$etag": "..."
+            },
+            {
+                "$relationshipId": "taccp_to_gstutcc",
+                "$sourceId": "taccp",
+                "$targetId": "gstutcc",
+                "$relationshipName": "Containsgstutcc",
+                "$etag": "..."
+            },
+            {
+                "$relationshipId": "taccp_to_bgd",
+                "$sourceId": "taccp",
+                "$targetId": "bgd",
+                "$relationshipName": "Containsbgd",
+                "$etag": "..."
+            },
+            {
+                "$relationshipId": "taccp_to_ic",
+                "$sourceId": "taccp",
+                "$targetId": "ic",
+                "$relationshipName": "Containsic",
+                "$etag": "..."
+            },
+            {
+                "$relationshipId": "taccp_to_cc",
+                "$sourceId": "taccp",
+                "$targetId": "cc",
+                "$relationshipName": "Containscc",
+                "$etag": "..."
+            }
+        ]
+    },
+    "digitalTwinsModels": [
+        {
+            "@id": "dtmi:com:adt:Integrity;1",
+            "@type": "Interface",
+            "@context": "dtmi:dtdl:context;2",
+            "contents": [
+                {
+                    "@type": "Property",
+                    "name": "IntegrityLevel",
+                    "schema": "string"
+                },
+                {
+                    "@type": "Property",
+                    "name": "AlertLimit",
+                    "schema": "integer"
+                },
+                {
+                    "@type": "Relationship",
+                    "name": "Containssisa",
+                    "target": "dtmi:com:adt:SISA;1"
+                },
+                {
+                    "@type": "Relationship",
+                    "name": "Containsspa",
+                    "target": "dtmi:com:adt:SPA;1"
+                }
+            ]
+        },
+        {
+            "@id": "dtmi:com:adt:OP;1",
+            "@type": "Interface",
+            "@context": "dtmi:dtdl:context;2",
+            "contents": [
+                {
+                    "@type": "Relationship",
+                    "name": "Containsephemeris",
+                    "target": "dtmi:com:adt:Ephemeris;1"
+                },
+                {
+                    "@type": "Property",
+                    "name": "SemiMajorAxis",
+                    "schema": "float"
+                },
+                {
+                    "@type": "Property",
+                    "name": "Eccentricity",
+                    "schema": "float"
+                },
+                {
+                    "@type": "Property",
+                    "name": "Inclination",
+                    "schema": "float"
+                },
+                {
+                    "@type": "Property",
+                    "name": "RightAscensionOfAscendingNode",
+                    "schema": "float"
+                },
+                {
+                    "@type": "Property",
+                    "name": "ArgumentOfPerigee",
+                    "schema": "float"
+                },
+                {
+                    "@type": "Property",
+                    "name": "OrbitalPeriod",
+                    "schema": "float"
+                }
+            ]
+        },
+        {
+            "@id": "dtmi:com:adt:SAT;1",
+            "@type": "Interface",
+            "@context": "dtmi:dtdl:context;2",
+            "contents": [
+                {
+                    "@type": "Property",
+                    "name": "Date",
+                    "schema": "date"
+                },
+                {
+                    "@type": "Property",
+                    "name": "MessageType",
+                    "schema": "string"
+                },
+                {
+                    "@type": "Property",
+                    "name": "Service",
+                    "schema": "string"
+                },
+                {
+                    "@type": "Property",
+                    "name": "Component",
+                    "schema": "string"
+                },
+                {
+                    "@type": "Relationship",
+                    "name": "Containsintegrity",
+                    "target": "dtmi:com:adt:Integrity;1"
+                },
+                {
+                    "@type": "Relationship",
+                    "name": "Containsop",
+                    "target": "dtmi:com:adt:OP;1"
+                },
+                {
+                    "@type": "Relationship",
+                    "name": "Containsalmanac",
+                    "target": "dtmi:com:adt:Almanac;1"
+                },
+                {
+                    "@type": "Relationship",
+                    "name": "Containssp",
+                    "target": "dtmi:com:adt:SP;1"
+                },
+                {
+                    "@type": "Relationship",
+                    "name": "Containstaccp",
+                    "target": "dtmi:com:adt:TACCP;1"
+                }
+            ]
+        },
+        {
+            "@id": "dtmi:com:adt:SISA;1",
+            "@type": "Interface",
+            "@context": "dtmi:dtdl:context;2",
+            "contents": [
+                {
+                    "@type": "Property",
+                    "name": "AccuracyLevel",
+                    "schema": "integer"
+                },
+                {
+                    "@type": "Property",
+                    "name": "ErrorMargin",
+                    "schema": "float"
+                },
+                {
+                    "@type": "Property",
+                    "name": "ConfidenceInterval",
+                    "schema": "integer"
+                },
+                {
+                    "@type": "Property",
+                    "name": "SystemIdentifier",
+                    "schema": "string"
+                }
+            ]
+        },
+        {
+            "@id": "dtmi:com:adt:SPA;1",
+            "@type": "Interface",
+            "@context": "dtmi:dtdl:context;2",
+            "contents": [
+                {
+                    "@type": "Property",
+                    "name": "Radiation",
+                    "schema": "float"
+                },
+                {
+                    "@type": "Property",
+                    "name": "BatteryHealth",
+                    "schema": "integer"
+                },
+                {
+                    "@type": "Property",
+                    "name": "BatteryLevel",
+                    "schema": "integer"
+                }
+            ]
+        },
+        {
+            "@id": "dtmi:com:adt:Ephemeris;1",
+            "@type": "Interface",
+            "@context": "dtmi:dtdl:context;2",
+            "contents": [
+                {
+                    "@type": "Property",
+                    "name": "TimeOfApplicability",
+                    "schema": "dateTime"
+                },
+                {
+                    "@type": "Property",
+                    "name": "PositionX",
+                    "schema": "float"
+                },
+                {
+                    "@type": "Property",
+                    "name": "PositionY",
+                    "schema": "float"
+                },
+                {
+                    "@type": "Property",
+                    "name": "PositionZ",
+                    "schema": "float"
+                },
+                {
+                    "@type": "Property",
+                    "name": "VelocityX",
+                    "schema": "float"
+                },
+                {
+                    "@type": "Property",
+                    "name": "VelocityY",
+                    "schema": "float"
+                },
+                {
+                    "@type": "Property",
+                    "name": "VelocityZ",
+                    "schema": "float"
+                }
+            ]
+        },
+        {
+            "@id": "dtmi:com:adt:Almanac;1",
+            "@type": "Interface",
+            "@context": "dtmi:dtdl:context;2",
+            "contents": [
+                {
+                    "@type": "Property",
+                    "name": "UpdateFrequency",
+                    "schema": "integer"
+                },
+                {
+                    "@type": "Relationship",
+                    "name": "Containssa",
+                    "target": "dtmi:com:adt:SA;1"
+                },
+                {
+                    "@type": "Relationship",
+                    "name": "Containsar",
+                    "target": "dtmi:com:adt:AR;1"
+                }
+            ]
+        },
+        {
+            "@id": "dtmi:com:adt:AR;1",
+            "@type": "Interface",
+            "@context": "dtmi:dtdl:context;2",
+            "contents": [
+                {
+                    "@type": "Property",
+                    "name": "ReferenceType",
+                    "schema": "string"
+                },
+                {
+                    "@type": "Property",
+                    "name": "ReferenceDetail",
+                    "schema": "string"
+                },
+                {
+                    "@type": "Property",
+                    "name": "EffectiveDate",
+                    "schema": "date"
+                },
+                {
+                    "@type": "Property",
+                    "name": "ExpiryDate",
+                    "schema": "date"
+                }
+            ]
+        },
+        {
+            "@id": "dtmi:com:adt:SA;1",
+            "@type": "Interface",
+            "@context": "dtmi:dtdl:context;2",
+            "contents": [
+                {
+                    "@type": "Property",
+                    "name": "WeekNumber",
+                    "schema": "integer"
+                }
+            ]
+        },
+        {
+            "@id": "dtmi:com:adt:SP;1",
+            "@type": "Interface",
+            "@context": "dtmi:dtdl:context;2",
+            "contents": [
+                {
+                    "@type": "Property",
+                    "name": "UpdateInterval",
+                    "schema": "integer"
+                },
+                {
+                    "@type": "Property",
+                    "name": "ParameterReliability",
+                    "schema": "string"
+                },
+                {
+                    "@type": "Relationship",
+                    "name": "Containssid",
+                    "target": "dtmi:com:adt:SID;1"
+                },
+                {
+                    "@type": "Relationship",
+                    "name": "Containsiod",
+                    "target": "dtmi:com:adt:IOD;1"
+                },
+                {
+                    "@type": "Relationship",
+                    "name": "Containsndvashs",
+                    "target": "dtmi:com:adt:NDVASHS;1"
+                },
+                {
+                    "@type": "Relationship",
+                    "name": "Containscrc",
+                    "target": "dtmi:com:adt:CRC;1"
+                }
+            ]
+        },
+        {
+            "@id": "dtmi:com:adt:SID;1",
+            "@type": "Interface",
+            "@context": "dtmi:dtdl:context;2",
+            "contents": [
+                {
+                    "@type": "Property",
+                    "name": "SatelliteId",
+                    "schema": "string"
+                }
+            ]
+        },
+        {
+            "@id": "dtmi:com:adt:IOD;1",
+            "@type": "Interface",
+            "@context": "dtmi:dtdl:context;2",
+            "contents": [
+                {
+                    "@type": "Property",
+                    "name": "IssueOfData",
+                    "schema": "integer"
+                }
+            ]
+        },
+        {
+            "@id": "dtmi:com:adt:NDVASHS;1",
+            "@type": "Interface",
+            "@context": "dtmi:dtdl:context;2",
+            "contents": [
+                {
+                    "@type": "Property",
+                    "name": "NavDataValidity",
+                    "schema": "boolean"
+                },
+                {
+                    "@type": "Property",
+                    "name": "SignalHealthStatus",
+                    "schema": "string"
+                }
+            ]
+        },
+        {
+            "@id": "dtmi:com:adt:CRC;1",
+            "@type": "Interface",
+            "@context": "dtmi:dtdl:context;2",
+            "contents": [
+                {
+                    "@type": "Property",
+                    "name": "Crc",
+                    "schema": "integer"
+                }
+            ]
+        },
+        {
+            "@id": "dtmi:com:adt:TACCP;1",
+            "@type": "Interface",
+            "@context": "dtmi:dtdl:context;2",
+            "contents": [
+                {
+                    "@type": "Property",
+                    "name": "AccuracyOfTiming",
+                    "schema": "float"
+                },
+                {
+                    "@type": "Property",
+                    "name": "TimeSystemUsed",
+                    "schema": "string"
+                },
+                {
+                    "@type": "Relationship",
+                    "name": "Containsgst",
+                    "target": "dtmi:com:adt:GST;1"
+                },
+                {
+                    "@type": "Relationship",
+                    "name": "Containsgpstgstc",
+                    "target": "dtmi:com:adt:GPSTGSTC;1"
+                },
+                {
+                    "@type": "Relationship",
+                    "name": "Containsgstutcc",
+                    "target": "dtmi:com:adt:GSTUTCC;1"
+                },
+                {
+                    "@type": "Relationship",
+                    "name": "Containsbgd",
+                    "target": "dtmi:com:adt:BGD;1"
+                },
+                {
+                    "@type": "Relationship",
+                    "name": "Containsic",
+                    "target": "dtmi:com:adt:IC;1"
+                },
+                {
+                    "@type": "Relationship",
+                    "name": "Containscc",
+                    "target": "dtmi:com:adt:CC;1"
+                }
+            ]
+        },
+        {
+            "@id": "dtmi:com:adt:GST;1",
+            "@type": "Interface",
+            "@context": "dtmi:dtdl:context;2",
+            "contents": [
+                {   "@type": "Property",
+                    "name": "GalileoSystemTime",
+                    "schema": "time"
+                    }
+            ]
+        },
+        {
+            "@id": "dtmi:com:adt:GPSTGSTC;1",
+            "@type": "Interface",
+            "@context": "dtmi:dtdl:context;2",
+            "contents": [
+                { "@type": "Property",
+                    "name": "GpsToGalileoTimeConversion",
+                    "schema": "float"
+                    }
+            ]
+        },
+        {
+            "@id": "dtmi:com:adt:GSTUTCC;1",
+            "@type": "Interface",
+            "@context": "dtmi:dtdl:context;2",
+            "contents": [
+                { "@type": "Property",
+                    "name": "GstUtcConversion",
+                    "schema": "float"
+                    }
+            ]
+        },
+        {
+            "@id": "dtmi:com:adt:BGD;1",
+            "@type": "Interface",
+            "@context": "dtmi:dtdl:context;2",
+            "contents": [
+                { "@type": "Property",
+                    "name": "BroadcastGroupDelay",
+                    "schema": "float"
+                    }
+            ]
+        },
+        {
+            "@id": "dtmi:com:adt:IC;1",
+            "@type": "Interface",
+            "@context": "dtmi:dtdl:context;2",
+            "contents": [
+                { "@type": "Property",
+                    "name": "IonosphericCorrection",
+                    "schema": "float"
+                    }
+            ]
+        },
+        {
+            "@id": "dtmi:com:adt:CC;1",
+            "@type": "Interface",
+            "@context": "dtmi:dtdl:context;2",
+            "contents": [
+                { "@type": "Property",
+                    "name": "ClockCorrection",
+                    "schema": "float"
+                    }
+            ]
+        }
+    ]
+}

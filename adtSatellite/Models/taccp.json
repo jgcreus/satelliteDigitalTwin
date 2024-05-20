@@ -1,0 +1,47 @@
+{
+  "@id": "dtmi:com:adt:TACCP;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+      {
+          "@type": "Property",
+          "name": "AccuracyOfTiming",
+          "schema": "float"
+      },
+      {
+          "@type": "Property",
+          "name": "TimeSystemUsed",
+          "schema": "string"
+      },
+      {
+          "@type": "Relationship",
+          "name": "Containsgst",
+          "target": "dtmi:com:adt:GST;1"
+      },
+      {
+          "@type": "Relationship",
+          "name": "Containsgpstgstc",
+          "target": "dtmi:com:adt:GPSTGSTC;1"
+      },
+      {
+          "@type": "Relationship",
+          "name": "Containsgstutcc",
+          "target": "dtmi:com:adt:GSTUTCC;1"
+      },
+      {
+          "@type": "Relationship",
+          "name": "Containsbgd",
+          "target": "dtmi:com:adt:BGD;1"
+      },
+      {
+          "@type": "Relationship",
+          "name": "Containsic",
+          "target": "dtmi:com:adt:IC;1"
+      },
+      {
+          "@type": "Relationship",
+          "name": "Containscc",
+          "target": "dtmi:com:adt:CC;1"
+      }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "@id": "dtmi:com:adt:SAT;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+      {
+          "@type": "Property",
+          "name": "Date",
+          "schema": "date"
+      },
+      {
+          "@type": "Property",
+          "name": "MessageType",
+          "schema": "string"
+      },
+      {
+          "@type": "Property",
+          "name": "Service",
+          "schema": "string"
+      },
+      {
+          "@type": "Property",
+          "name": "Component",
+          "schema": "string"
+      },
+      {
+          "@type": "Relationship",
+          "name": "Containsintegrity",
+          "target": "dtmi:com:adt:Integrity;1"
+      },
+      {
+          "@type": "Relationship",
+          "name": "Containsop",
+          "target": "dtmi:com:adt:OP;1"
+      },
+      {
+          "@type": "Relationship",
+          "name": "Containsalmanac",
+          "target": "dtmi:com:adt:Almanac;1"
+      },
+      {
+          "@type": "Relationship",
+          "name": "Containssp",
+          "target": "dtmi:com:adt:SP;1"
+      },
+      {
+          "@type": "Relationship",
+          "name": "Containstaccp",
+          "target": "dtmi:com:adt:TACCP;1"
+      }
+  ]
+}

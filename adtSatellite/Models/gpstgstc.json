@@ -1,0 +1,11 @@
+{
+  "@id": "dtmi:com:adt:GPSTGSTC;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+      { "@type": "Property",
+          "name": "GpsToGalileoTimeConversion",
+          "schema": "float"
+          }
+  ]
+}

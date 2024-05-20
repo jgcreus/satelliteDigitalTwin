@@ -1,0 +1,27 @@
+{
+  "@id": "dtmi:com:adt:Integrity;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+      {
+          "@type": "Property",
+          "name": "IntegrityLevel",
+          "schema": "string"
+      },
+      {
+          "@type": "Property",
+          "name": "AlertLimit",
+          "schema": "integer"
+      },
+      {
+          "@type": "Relationship",
+          "name": "Containssisa",
+          "target": "dtmi:com:adt:SISA;1"
+      },
+      {
+          "@type": "Relationship",
+          "name": "Containsspa",
+          "target": "dtmi:com:adt:SPA;1"
+      }
+  ]
+}

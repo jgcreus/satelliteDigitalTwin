@@ -1,0 +1,27 @@
+{
+  "@id": "dtmi:com:adt:AR;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+      {
+          "@type": "Property",
+          "name": "ReferenceType",
+          "schema": "string"
+      },
+      {
+          "@type": "Property",
+          "name": "ReferenceDetail",
+          "schema": "string"
+      },
+      {
+          "@type": "Property",
+          "name": "EffectiveDate",
+          "schema": "date"
+      },
+      {
+          "@type": "Property",
+          "name": "ExpiryDate",
+          "schema": "date"
+      }
+  ]
+}

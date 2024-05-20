@@ -1,0 +1,11 @@
+{
+  "@id": "dtmi:com:adt:GSTUTCC;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+      { "@type": "Property",
+          "name": "GstUtcConversion",
+          "schema": "float"
+          }
+  ]
+}

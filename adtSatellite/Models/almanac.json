@@ -1,0 +1,22 @@
+{
+  "@id": "dtmi:com:adt:Almanac;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+      {
+          "@type": "Property",
+          "name": "UpdateFrequency",
+          "schema": "integer"
+      },
+      {
+          "@type": "Relationship",
+          "name": "Containssa",
+          "target": "dtmi:com:adt:SA;1"
+      },
+      {
+          "@type": "Relationship",
+          "name": "Containsar",
+          "target": "dtmi:com:adt:AR;1"
+      }
+  ]
+}

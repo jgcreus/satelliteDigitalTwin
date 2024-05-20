@@ -1,0 +1,42 @@
+{
+  "@id": "dtmi:com:adt:Ephemeris;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+      {
+          "@type": "Property",
+          "name": "TimeOfApplicability",
+          "schema": "dateTime"
+      },
+      {
+          "@type": "Property",
+          "name": "PositionX",
+          "schema": "float"
+      },
+      {
+          "@type": "Property",
+          "name": "PositionY",
+          "schema": "float"
+      },
+      {
+          "@type": "Property",
+          "name": "PositionZ",
+          "schema": "float"
+      },
+      {
+          "@type": "Property",
+          "name": "VelocityX",
+          "schema": "float"
+      },
+      {
+          "@type": "Property",
+          "name": "VelocityY",
+          "schema": "float"
+      },
+      {
+          "@type": "Property",
+          "name": "VelocityZ",
+          "schema": "float"
+      }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "@id": "dtmi:com:adt:SPA;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+      {
+          "@type": "Property",
+          "name": "Radiation",
+          "schema": "float"
+      },
+      {
+          "@type": "Property",
+          "name": "BatteryHealth",
+          "schema": "integer"
+      },
+      {
+          "@type": "Property",
+          "name": "BatteryLevel",
+          "schema": "integer"
+      }
+  ]
+}

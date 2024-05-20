@@ -1,0 +1,37 @@
+{
+  "@id": "dtmi:com:adt:SP;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+      {
+          "@type": "Property",
+          "name": "UpdateInterval",
+          "schema": "integer"
+      },
+      {
+          "@type": "Property",
+          "name": "ParameterReliability",
+          "schema": "string"
+      },
+      {
+          "@type": "Relationship",
+          "name": "Containssid",
+          "target": "dtmi:com:adt:SID;1"
+      },
+      {
+          "@type": "Relationship",
+          "name": "Containsiod",
+          "target": "dtmi:com:adt:IOD;1"
+      },
+      {
+          "@type": "Relationship",
+          "name": "Containsndvashs",
+          "target": "dtmi:com:adt:NDVASHS;1"
+      },
+      {
+          "@type": "Relationship",
+          "name": "Containscrc",
+          "target": "dtmi:com:adt:CRC;1"
+      }
+  ]
+}
