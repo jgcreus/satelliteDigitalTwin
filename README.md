@@ -1,5 +1,5 @@
 # satelliteDigitalTwin
-<Español>
+#**Español**
 
 Desarrollado para Azure Digital Twins utilizando JSON y Bash.
 
@@ -19,7 +19,8 @@ Este repositorio contiene el código utilizado en el trabajo de fin de máster d
 
 
 
-<English>
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#**English**
 
 Developed for Azure Digital Twins using JSON and Bash.
 
