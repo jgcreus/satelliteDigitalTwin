@@ -3,7 +3,7 @@
 
 Desarrollado para Azure Digital Twins utilizando JSON y Bash.
 
-Este repositorio contiene el código utilizado en el trabajo de fin de máster de ingeniería de telecomunicaciones de la Universitat Oberta de Catalunya "Gemelo Digital del Satélite Galileo". El repositorio se organiza en tres secciones principales:
+Este repositorio contiene el código utilizado en el trabajo de fin de máster de ingeniería de telecomunicaciones de la Universitat Oberta de Catalunya "Digital Twin del Sistema de Navegación Galileo". El repositorio se organiza en tres secciones principales:
 
 1. Carpeta "Models": Esta carpeta incluye los modelos en DTLD de los 21 nodos utilizados para desarrollar el gemelo digital. Estos modelos pueden implementarse de forma individual en el "Azure Digital Twin Explorer", aunque es más eficiente utilizar el archivo principal del proyecto, "satellite.json". Este archivo define todos los modelos, incluyendo sus propiedades y relaciones. Para su uso, simplemente debemos importarlo utilizando la opción "Import Graph" dentro del "Azure Digital Twin Explorer". Una vez importado, generamos todos los gemelos ejecutando la consulta por defecto presionando "Run Query", obteniendo así el gráfico final:
 
@@ -24,7 +24,7 @@ Este repositorio contiene el código utilizado en el trabajo de fin de máster d
 
 Developed for Azure Digital Twins using JSON and Bash.
 
-This repository contains the code used in the Universitat Oberta de Catalunya's Master's thesis "Digital Twin of the Galileo Satellite". The repository is organised in three main sections:
+This repository contains the code used in the Universitat Oberta de Catalunya's Master's thesis "Digital Twin of the Galileo Navigation System". The repository is organised in three main sections:
 
 1. "Models" folder: This folder includes the DTLD models of the 21 nodes used to develop the digital twin. These models can be implemented individually in the "Azure Digital Twin Explorer", although it is more efficient to use the main project file, "satellite.json". This file defines all models, including their properties and relationships. To use it, we simply import it using the "Import Graph" option in Azure Digital Twin Explorer. Once imported, we generate all the twins by executing the default query by pressing "Run Query", thus obtaining the final graph:
 
